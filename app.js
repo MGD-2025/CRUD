@@ -12,4 +12,4 @@ app.use ('/usuarios', routes)
 app.use ((req, res)=> res.status(404).json ({mensaje:'404 - Página no encontrada'}))
 
 
-app.listen (PORT, ()=> console.log (`El servidor está escuchando en el puerto http://localhost:${PORT}`))s
+app.listen (PORT, ()=> console.log (`El servidor está escuchando en el puerto http://localhost:${PORT}`))
